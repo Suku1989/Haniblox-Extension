@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>icon--sounds</title>
+	<defs>
+		<image  width="14" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAAAXNSR0IB2cksfwAAAJZQTFRFAAAAzlFr2kpetGiN2Etg+zg41U1kul5/40VT2UpewVh660BKqWeXvVp/7j9HwVV55ERSyVNyxVV1wFh89js+ylJx7j9Gtl+L9Ts/3khZ+Do8+jk54UZV8D5E+Tk69js96UJNrWSVvlp+50JO+jg540VTv1h8uluCs2CO5EVTvFqA7z9G2Etg1E1kmHyvwVh6zFFtgID/vX9OTwAAADJ0Uk5TAITDB7r/qx3jwrL9LLH8FeRcr7z/Xvcb//X+//f+///zGLP6/+Zboxrjr/67qgVysQIlAGiOAAAAcUlEQVR4nGNgAAFGJmYGBGBhZWWDc9g5WFlZOYEMLm4eBl4+VhDg5BcQFGIVZhBhhXBFWcXEJSQZWKFcBilpBhlZJK4ciCsPV6ygCFSspKwCMUpVTR1oFAODhibUIi1tHrDNOqysuiBaD+oSfQNDCAMA2fIGwGdHm/YAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="3" y="5" />
+</svg>

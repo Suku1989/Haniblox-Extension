@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>icon--costumes</title>
+	<defs>
+		<image  width="17" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAAXNSR0IB2cksfwAAAIpQTFRFAAAA7j9H+zg4z1Zu+Do72Exe+jk5+Tk6vVB650NO+Tk68T1C4kVUxV169DxA1U1jgID/n2uazlFs005mzk5q8z1B+jk52EphrWOR60FK+jg55URSvmKC7EBK0FFn+Do88T1D9js9xFd39js9tF6J1E1k7z5F7UBIpmiawll64EZW8j1C7z5FyFRy8Mo1UAAAAC50Uk5TAN//Fvwl/v4Mt/3ojRLzVgIQjVwb9v8+Wvz/3xDlKv38/0X9bGz9/RQ75v36dlRkV2kAAABwSURBVHicY2BAAYxMTCh8ZhYmVBFWNqAAO5IAB0iAiRNJhAskwIYkwA0SYOJBCPCCBfiQlPCDRQTgfEEhYRFRJjFxuICEJJOUtIysHIwvr6AI1CCmhDBCGWwEkwpCRFUNJKCugWSPppa2mI4uAyUAAEAsBJ5uvRptAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="3" />
+</svg>

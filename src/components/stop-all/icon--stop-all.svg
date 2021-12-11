@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>icon--stop-all</title>
+	<defs>
+		<image  width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAAXNSR0IB2cksfwAAABVQTFRFAAAA+zg4/wAA/QUF+hER/QoK+RMTJRYLGgAAAAd0Uk5TAP///////6V/pvsAAAA2SURBVHicY2BgFBQUFGBgYBBUUlISZGBgFALSigJgLkhACEwrEkkbwvXBzGEQdFIKA5oLtQcAI4oKF1md3fQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
