@@ -98,6 +98,9 @@ import posenetImageIconURL from './posenet/posenet-small.svg';
 import aiservicesImage from './ai-services/AI-services.png';
 import aiservicesIconURL from './ai-services/AI-services-small.svg';
 
+import nlpImage from './naturallanguageprocessing/NaturalLanguage.png';
+import nlpIconURL from './naturallanguageprocessing/NaturalLanguage.png';
+
 export default [
     {
         name: 'Face Detection',
@@ -159,65 +162,64 @@ export default [
     
             
     },
-    {
-        name: 'Artificial Intelligence',
-        extensionId: 'AIServicesBlocks',
-        collaborator: "my Skill Skool",
-        iconURL: aiservicesImage,
-        insetIconURL: aiservicesIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="Artificial Intelligence"
-                description="Speech, Text & Face Recognition"
-                id="gui.extension.AIServicesBlocks.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false,
+    // {
+    //     name: 'Artificial Intelligence',
+    //     extensionId: 'AIServicesBlocks',
+    //     collaborator: "my Skill Skool",
+    //     iconURL: aiservicesImage,
+    //     insetIconURL: aiservicesIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="Artificial Intelligence"
+    //             description="Speech, Text & Face Recognition"
+    //             id="gui.extension.AIServicesBlocks.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false,
     
             
-    },
-    {
-    	name: 'IFTTT',
-	extensionId: 'gasoIFTTT',
-	collaborator: 'My Skill Skool',
-	iconURL: iftttImage,
-	insetIconURL: iftttInsetIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="IFTTT Webhook"
-                description="IFTTT Webhook extension"
-                id="gui.extension.gasoifttt.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        // bluetoothRequired: false,
-        internetConnectionRequired: true,
-        // launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        helpLink: 'https://github.com/gasolin/scratch3-internet'
-    },
-    ,
-    {
-        name: 'knnAlgorithm',
-        extensionId: 'knnAlgorithm',
-        iconURL: knnalgorithmImage,
-        insetIconURL: knnalgorithmInsetImage,
-	collaborator: 'My Skill Skool',
-        description: (
-           <FormattedMessage
-               defaultMessage="knn algorithm."
-               description="Description for the 'knn algorithm' extension"
-	       id="gui.extension.knnalgorithm.description"
-           />
-        ),
-        internetConnectionRequired: true,        
-        featured: true,
-        helpLink: 'https://github.com/CodeLabClub/scratch3_knn'
-   },
+    // },
+    // {
+    // 	name: 'IFTTT',
+	// extensionId: 'gasoIFTTT',
+	// collaborator: 'My Skill Skool',
+	// iconURL: iftttImage,
+	// insetIconURL: iftttInsetIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="IFTTT Webhook"
+    //             description="IFTTT Webhook extension"
+    //             id="gui.extension.gasoifttt.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     // bluetoothRequired: false,
+    //     internetConnectionRequired: true,
+    //     // launchPeripheralConnectionFlow: false,
+    //     useAutoScan: false,
+    //     helpLink: 'https://github.com/gasolin/scratch3-internet'
+    // },
+//     {
+//         name: 'knnAlgorithm',
+//         extensionId: 'knnAlgorithm',
+//         iconURL: knnalgorithmImage,
+//         insetIconURL: knnalgorithmInsetImage,
+// 	collaborator: 'My Skill Skool',
+//         description: (
+//            <FormattedMessage
+//                defaultMessage="knn algorithm."
+//                description="Description for the 'knn algorithm' extension"
+// 	       id="gui.extension.knnalgorithm.description"
+//            />
+//         ),
+//         internetConnectionRequired: true,        
+//         featured: true,
+//         helpLink: 'https://github.com/CodeLabClub/scratch3_knn'
+//    },
    {
         name: 'Arduino',
         extensionId: 'webserialArduino',
@@ -258,6 +260,23 @@ export default [
         helpLink: 'https://sites.google.com/view/scratch-web-serial-api/'
 
     },
+    {
+       name: "Natural Language Processing",
+       extensionId: 'naturalLanguageProcessing',
+       collaborator: 'my Skill Skool',
+       iconURL: nlpImage,
+       insetIconURL: nlpIconURL,
+       description: (
+           <FormattedMessage
+               defaultMessage="Natural Language Processing"
+               description="Create Text Classifiers with NLP"
+               id="gui.extension.naturalLanguageProcessing.description"
+           />
+       ),
+       featured: true,
+       disabled: false,
+       internetConnectionRequired: false
+   },
     {
         name: (
             <FormattedMessage
@@ -529,70 +548,70 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     },
-    {
-	name: 'JSON',
-    	extensionId: 'gasoJSON',
-    	collaborator: 'gasolin,TYiC',
-    	iconURL: jsonImage,
-    	insetIconURL: jsonInsetIconURL,
-    	description: (
-        	<FormattedMessage
-            	defaultMessage="Fetch JSON."
-            	description="Fetch JSON extension"
-            	id="gui.extension.gasojson.description"
-        	/>
-    	),
-    	featured: true,
-    	disabled: false,
-    	// bluetoothRequired: false,
-    	internetConnectionRequired: true,
-    	// launchPeripheralConnectionFlow: false,
-    	useAutoScan: false,
-    	helpLink: 'https://github.com/gasolin/scratch3-internet'
-    },
+    // {
+	// name: 'JSON',
+    // 	extensionId: 'gasoJSON',
+    // 	collaborator: 'gasolin,TYiC',
+    // 	iconURL: jsonImage,
+    // 	insetIconURL: jsonInsetIconURL,
+    // 	description: (
+    //     	<FormattedMessage
+    //         	defaultMessage="Fetch JSON."
+    //         	description="Fetch JSON extension"
+    //         	id="gui.extension.gasojson.description"
+    //     	/>
+    // 	),
+    // 	featured: true,
+    // 	disabled: false,
+    // 	// bluetoothRequired: false,
+    // 	internetConnectionRequired: true,
+    // 	// launchPeripheralConnectionFlow: false,
+    // 	useAutoScan: false,
+    // 	helpLink: 'https://github.com/gasolin/scratch3-internet'
+    // },
     
-    {
-  	name: 'LASS',
-	extensionId: 'gasoLASS',
-	collaborator: 'gasolin',
-	iconURL: lassImage,
-	insetIconURL: lassInsetIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="Fetch LASS."
-                description="Fetch LASS extension"
-                id="gui.extension.gasolass.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        // bluetoothRequired: false,
-        internetConnectionRequired: true,
-        // launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        helpLink: 'https://github.com/gasolin/scratch3-internet'
-    },
-    {
-	name: 'ThingSpeak',
-	extensionId: 'gasoThingSpeak',
-	collaborator: 'gasolin',
-	iconURL: thingspeakImage,
-	insetIconURL: thingspeakInsetIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="ThingSpeak"
-                description="ThingSpeak extension"
-                id="gui.extension.gasothingspeak.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        // bluetoothRequired: false,
-        internetConnectionRequired: true,
-        // launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        helpLink: 'https://github.com/gasolin/scratch3-internet'
-    },
+    // {
+  	// name: 'LASS',
+	// extensionId: 'gasoLASS',
+	// collaborator: 'gasolin',
+	// iconURL: lassImage,
+	// insetIconURL: lassInsetIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="Fetch LASS."
+    //             description="Fetch LASS extension"
+    //             id="gui.extension.gasolass.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     // bluetoothRequired: false,
+    //     internetConnectionRequired: true,
+    //     // launchPeripheralConnectionFlow: false,
+    //     useAutoScan: false,
+    //     helpLink: 'https://github.com/gasolin/scratch3-internet'
+    // },
+    // {
+	// name: 'ThingSpeak',
+	// extensionId: 'gasoThingSpeak',
+	// collaborator: 'gasolin',
+	// iconURL: thingspeakImage,
+	// insetIconURL: thingspeakInsetIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="ThingSpeak"
+    //             description="ThingSpeak extension"
+    //             id="gui.extension.gasothingspeak.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     // bluetoothRequired: false,
+    //     internetConnectionRequired: true,
+    //     // launchPeripheralConnectionFlow: false,
+    //     useAutoScan: false,
+    //     helpLink: 'https://github.com/gasolin/scratch3-internet'
+    // },
     {
 	name: 'voicetoTEXT',
 	extensionId: 'voicetoTEXT',
@@ -613,167 +632,167 @@ export default [
         // launchPeripheralConnectionFlow: false,
         useAutoScan: false,
         helpLink: 'https://github.com/estea8968/scratch3-internet'
-    },
-    {
-	name: 'urlTXT',
-	extensionId: 'urlTXT',
-	collaborator: 'estea chen',
-	iconURL: urltxtImage,
-	insetIconURL: urltxtInsetIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="urlTXT"
-                description="get url text data extension"
-                id="gui.extension.urltxt.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        // bluetoothRequired: false,
-        internetConnectionRequired: true,
-        // launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        helpLink: 'https://github.com/estea8968/scratch3-internet'
-    },
-    
-    {
-	name: 'rwGoogle',
-	extensionId: 'rwGoogle',
-	collaborator: 'TYiC',
-	iconURL: rwGoogleImage,
-	insetIconURL: rwGoogleInsetIconURL,
-	description: (
-            <FormattedMessage
-                defaultMessage="rwGoogle"
-                description="read write google sheets extension"
-                id="gui.extension.rwgoogle.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        // bluetoothRequired: false,
-        internetConnectionRequired: true,
-        // launchPeripheralConnectionFlow: false,
-        useAutoScan: false,
-        helpLink: 'https://github.com/estea8968/scratch3-internet'
-    },
-    
-    {
-        name: 'Webserial ESP-32',
-        extensionId: 'webserialEsp32',
-        collaborator: "Mr. Y's Lab,estea chen",
-        iconURL: webserialEsp32Image,
-        insetIconURL: webserialEsp32InsetIconURL,
-        description: (
-        	<FormattedMessage
-            	defaultMessage="Webserial ESP-32"
-            	description="Webserial ESP-32 extension"
-            	id="gui.extension.WebserialEsp32.description"
-        	/>
-    	),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false,
-        helpLink: 'https://ys-fang.github.io/OSEP/app/'
-
-    },
-    {
-        name: 'MQTT',
-        extensionId: 'mqtt',
-        collaborator: "estea chen",
-        iconURL: mqttImage,
-        insetIconURL: mqttInsetIconURL,
-        description: (
-        	<FormattedMessage
-            	defaultMessage="MQTT"
-            	description="MQTT extension"
-            	id="gui.extension.Mqtt.description"
-        	/>
-    	),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false,
-        //helpLink: ''
-
-    },
-    {
-        name: 'ML2Scratch',
-        extensionId: 'ml2scratch',
-        collaborator: 'champierre',
-        iconURL: ml2scratchIconURL,
-        insetIconURL: ml2scratchInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage='ML2Scratch Blocks.'
-                description='ML2Scratch Blocks.'
-                id='gui.extension.ml2scratchblocks.description'
-            />
-        ),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false
-    },
-    {
-        name: 'Posenet2Scratch',
-        extensionId: 'posenet2scratch',
-        collaborator: 'champierre',
-        iconURL: posenet2scratchIconURL,
-        insetIconURL: posenet2scratchInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage='PoseNet2Scratch Blocks.'
-                description='PoseNet2Scratch Blocks.'
-                id='gui.extension.posenet2scratchblocks.description'
-            />
-        ),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false
-    },
-    {
-        name: 'TM2Scratch',
-        extensionId: 'tm2scratch',
-        collaborator: 'Tsukurusha, YengawaLab and Google',
-        iconURL: tm2scratchIconURL,
-        insetIconURL: tm2scratchInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage='画像や音声を学習させよう。'
-                description='画像や音声を学習させよう。'
-                id='gui.extension.tm2scratchblocks.description'
-            />
-        ),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false
-     },
-     {
-        name: (
-            <FormattedMessage
-                defaultMessage="Text to Speech"
-                description="Name for the Text to Speech extension"
-                id="gui.extension.text2speech.name"
-            />
-        ),
-        extensionId: 'SpeechToText',
-        collaborator: 'my Skill Skool',
-        iconURL: text2speechIconURL,
-        insetIconURL: text2speechInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Make your projects talk."
-                description="Description for the Text to speech extension"
-                id="gui.extension.text2speech.description"
-            />
-        ),
-        featured: true,
-        internetConnectionRequired: false
     }
+    // {
+	// name: 'urlTXT',
+	// extensionId: 'urlTXT',
+	// collaborator: 'estea chen',
+	// iconURL: urltxtImage,
+	// insetIconURL: urltxtInsetIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="urlTXT"
+    //             description="get url text data extension"
+    //             id="gui.extension.urltxt.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     // bluetoothRequired: false,
+    //     internetConnectionRequired: true,
+    //     // launchPeripheralConnectionFlow: false,
+    //     useAutoScan: false,
+    //     helpLink: 'https://github.com/estea8968/scratch3-internet'
+    // },
+    
+    // {
+	// name: 'rwGoogle',
+	// extensionId: 'rwGoogle',
+	// collaborator: 'TYiC',
+	// iconURL: rwGoogleImage,
+	// insetIconURL: rwGoogleInsetIconURL,
+	// description: (
+    //         <FormattedMessage
+    //             defaultMessage="rwGoogle"
+    //             description="read write google sheets extension"
+    //             id="gui.extension.rwgoogle.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     // bluetoothRequired: false,
+    //     internetConnectionRequired: true,
+    //     // launchPeripheralConnectionFlow: false,
+    //     useAutoScan: false,
+    //     helpLink: 'https://github.com/estea8968/scratch3-internet'
+    // },
+    
+    // {
+    //     name: 'Webserial ESP-32',
+    //     extensionId: 'webserialEsp32',
+    //     collaborator: "Mr. Y's Lab,estea chen",
+    //     iconURL: webserialEsp32Image,
+    //     insetIconURL: webserialEsp32InsetIconURL,
+    //     description: (
+    //     	<FormattedMessage
+    //         	defaultMessage="Webserial ESP-32"
+    //         	description="Webserial ESP-32 extension"
+    //         	id="gui.extension.WebserialEsp32.description"
+    //     	/>
+    // 	),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false,
+    //     helpLink: 'https://ys-fang.github.io/OSEP/app/'
+
+    // },
+    // {
+    //     name: 'MQTT',
+    //     extensionId: 'mqtt',
+    //     collaborator: "estea chen",
+    //     iconURL: mqttImage,
+    //     insetIconURL: mqttInsetIconURL,
+    //     description: (
+    //     	<FormattedMessage
+    //         	defaultMessage="MQTT"
+    //         	description="MQTT extension"
+    //         	id="gui.extension.Mqtt.description"
+    //     	/>
+    // 	),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false,
+    //     //helpLink: ''
+
+    // },
+    // {
+    //     name: 'ML2Scratch',
+    //     extensionId: 'ml2scratch',
+    //     collaborator: 'champierre',
+    //     iconURL: ml2scratchIconURL,
+    //     insetIconURL: ml2scratchInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage='ML2Scratch Blocks.'
+    //             description='ML2Scratch Blocks.'
+    //             id='gui.extension.ml2scratchblocks.description'
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false
+    // },
+    // {
+    //     name: 'Posenet2Scratch',
+    //     extensionId: 'posenet2scratch',
+    //     collaborator: 'champierre',
+    //     iconURL: posenet2scratchIconURL,
+    //     insetIconURL: posenet2scratchInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage='PoseNet2Scratch Blocks.'
+    //             description='PoseNet2Scratch Blocks.'
+    //             id='gui.extension.posenet2scratchblocks.description'
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false
+    // },
+    // {
+    //     name: 'TM2Scratch',
+    //     extensionId: 'tm2scratch',
+    //     collaborator: 'Tsukurusha, YengawaLab and Google',
+    //     iconURL: tm2scratchIconURL,
+    //     insetIconURL: tm2scratchInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage='画像や音声を学習させよう。'
+    //             description='画像や音声を学習させよう。'
+    //             id='gui.extension.tm2scratchblocks.description'
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     internetConnectionRequired: true,
+    //     bluetoothRequired: false
+    //  }
+    //  {
+    //     name: (
+    //         <FormattedMessage
+    //             defaultMessage="Text to Speech"
+    //             description="Name for the Text to Speech extension"
+    //             id="gui.extension.text2speech.name"
+    //         />
+    //     ),
+    //     extensionId: 'SpeechToText',
+    //     collaborator: 'my Skill Skool',
+    //     iconURL: text2speechIconURL,
+    //     insetIconURL: text2speechInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage="Make your projects talk."
+    //             description="Description for the Text to speech extension"
+    //             id="gui.extension.text2speech.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     internetConnectionRequired: false
+    // }
     // {
     //     name: 'Face Detection',
     //     extensionId: 'faceapi',

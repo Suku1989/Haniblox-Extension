@@ -7,7 +7,7 @@ import {setFullScreen, setPlayer} from './reducers/mode';
 import {remixProject} from './reducers/project-state';
 import {setAppElement} from 'react-modal';
 import tfjs from '@tensorflow/tfjs';
-import fs from 'fs';
+import * as fs from 'fs';
 
 const guiReducers = {
     locales: LocalesReducer,
